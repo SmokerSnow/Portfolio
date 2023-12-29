@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- ----------Home---------- -->
+
+    <section id="home">
+        <nav>
+            <a href="index.html"><img src="" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-arrow-right" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <div class="left">
+                <h1 style="font-size: 30px;">Hi I Am </h1>
+            </div>
+            <div class="right">
+               <h1  style="font-size: 30px;">NAYAN PARIHAR</h1><br>
+            </div>
+            <h1>
+            <p>A Web Devloper Passionate About Creating Innovative, User-Friendly Websites <br>And Staying Updated On The Latest Technologies. </p>
+            <a href="" class="hero-btn">Visit My Office.</a>
+        </div>
+    </section>
+
+
+    <!-- ----------about---------- -->
+
+    <section id="about">
+        <h1>About Me </h1><br><br>
+        <div class="aboutme">
+            <div class="about-col">
+                <img style="height: 200px; border-radius: 50%;" src="images/myphoto.jpg" alt="No image found">
+            </div>
+            <div>
+                <p style="color: rgb(38, 36, 36);"><b> With Expertise In A Multitude Of Coding Languages, I Am A Seasoned Professional Web Developer Dedicated To Crafting Seamless Digital Experiences. From Front-End Frameworks To Back-End Technologies, I Thrive On Implementing Robust Solutions, Staying Abreast Of Industry Trends, And Delivering Cutting-Edge Websites And Applications.</b></p>  
+            </div>
+        </div>
+
+        <!-- ----------projects---------- -->
+
+    </section>
+    <section id="projects">
+        <h1>My projects</h1>
+        <p>Having spearheaded numerous projects, I excel in managing diverse initiatives, ensuring seamless collaboration, and delivering successful outcomes within deadlines and budget constraints.</p>
+        <div class="row">
+            <div class="project-col">
+                <h3>Portfolio</h3>
+                <p>Crafted a dynamic web portfolio showcasing my diverse projects, skills, and passion for innovative web development.</p>
+            </div>
+            <div class="project-col">
+                <h3>Calculator</h3>
+                <p>Designed a sleek calculator using HTML and CSS, demonstrating my frontend skills with intuitive user interface.</p>
+            </div>
+            <div class="project-col">
+                <h3>Comming Soon</h3>
+                <p>On going Projects will displayed after some time.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ----------Contact---------- -->
+
+    <section id="contact">
+      <h1>Contact Me</h1><br>
+       <p>Get in touch for collaborations, inquiries, or a friendly chat. I'm here and eager to connect with you!</p>
+       <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-github"></i>
+       </div>
+       <p>Made By NAYAN PARIHAR</p>
+    </section>
+
+    <!-- ----------J.s For Menu---------- -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
